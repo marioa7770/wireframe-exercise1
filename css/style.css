@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+
+header {
+  background-color: darkgray;
+}
+header img {
+  margin-bottom: 0cm;
+}
+
+nav {
+  margin: 1rem auto;
+  width: 960px;
+  justify-content: space-between;
+  display: flex;
+
+}
+
+main {
+  margin: 30px auto 0;
+  width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: flex-start; 
+}
+
+img {
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: gray;
+  height: 50px;
+  border: 1px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  padding: 1rem;
+
+}
+
+article {
+  width: 450px;
+}
+
+article section {
+  height: 320px;
+  overflow: auto;
+}
